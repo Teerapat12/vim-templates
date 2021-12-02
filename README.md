@@ -83,7 +83,7 @@ defined above are placeholders, which are expanded as soon as you call
 ``:TemplateExpand``.
 - In a new file type ``:TemplateInit cppmain`` to both place the above
   content inside the file and expand the placeholders.
-- If templte file name (after removing `.template` from file name) matches the current file name or extension it is automatically imported and expnded when you create a new file.
+- If template file name (after removing `.template` from file name) matches the current file name or extension it is automatically imported and expnded when you create a new file.
 - You can also use `TemplateAutoInit` vim command to import and expand templates. This command will insert and expand the template at line below the cursor.
 
 ### Search paths
